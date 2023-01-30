@@ -1,0 +1,49 @@
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+    padding: 15px;
+
+
+}
+
+
+.main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+.resultados{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    justify-content: space-evenly;
+}
+#texto-resultados{
+    text-align: center;
+}
+
+
+.seleccion{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: normal;
+    max-width: 300px;
+    max-height: 150px;
+
+}
+
+.seleccion > *{
+    padding: 3px
+
+
+
+}
+
+
+#input-invalido{
+    border: 2px solid red;
+
+}

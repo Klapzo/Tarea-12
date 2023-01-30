@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/main.css" />
+		<script defer src="./src/index.js"></script>
+		<link rel="shortcut icon" href="#" />
+		<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+		<title>Tarea 12</title>
+	</head>
+
+	<body>
+		<h1>Tabla de cambios</h1>
+
+		<div class="main">
+			<form class="seleccion">
+				<label class="form-label" for="">Fecha</label>
+				<input class="form-control" type="date" name="" id="" />
+
+				<label class="form-label" for="">Moneda base</label>
+				<select class="form-control selector-monedas"></select>
+				<button class="btn btn-primary">enviar</button>
+				<label id="texto-error" style="color: red"></label>
+			</form>
+
+			<div class="contenedor-tabla">
+				<h3 id="texto-resultados"></h3>
+
+				<ul class="resultados"></ul>
+			</div>
+		</div>
+	</body>
+</html>
